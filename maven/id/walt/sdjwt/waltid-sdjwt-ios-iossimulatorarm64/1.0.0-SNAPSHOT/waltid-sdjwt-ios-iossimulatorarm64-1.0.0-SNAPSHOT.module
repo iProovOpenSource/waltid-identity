@@ -1,0 +1,141 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-sdjwt-ios/1.0.0-SNAPSHOT/waltid-sdjwt-ios-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.sdjwt",
+    "module": "waltid-sdjwt-ios",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto-ios",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-sdjwt-ios-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-sdjwt-ios-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
+          "size": 8715,
+          "sha512": "b892584ea5b716006943ee9a70a5eaabe80860b8a6a90ba2c78d102e64d189d268158e2caaf36d26a04e3fcf93a69ae98b3fc35489a0862c7ec90db64f84a48f",
+          "sha256": "123293caa246165c4ecaea58c509675f996f487e5a220f4e73c3b9059601b48e",
+          "sha1": "5111260d87d822fdeb303f2ce520dbc8f3e5edf6",
+          "md5": "66bea9d901175a0b13a1d5098c33b216"
+        },
+        {
+          "name": "waltid-sdjwt-ios-iosSimulatorArm64Cinterop-JOSESwiftMain-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-sdjwt-ios-iossimulatorarm64-1.0.0-SNAPSHOT-cinterop-JOSESwift.klib",
+          "size": 4529,
+          "sha512": "c2870b6505451528c81c3809cd21e526b0571b5ce9ffe33b1b2f1048ae4adbde398a70a050ca056a6459b335d0d0a1e8633c7744b9f293934aa25fb251475825",
+          "sha256": "512a0ddfcebd88a657c9d7236601a98dbe0124074c58937774d0bb85e57aea3f",
+          "sha1": "ddc1e126f0f93e8f6418fb345b1af2208f4f1fea",
+          "md5": "3b07688d7b4f05584c4a58360adaa488"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "waltid-sdjwt-ios-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-sdjwt-ios-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 1947,
+          "sha512": "cab60067c58347fb6c7420e6630100f536b0f86639d13a9f96e71324cb127c96a8e7116f4dfa29b0030fdc542608a7691c4e79a99e1635c7f7f4591fdab8c52a",
+          "sha256": "158c956b418996bb374f0e424f81afe01fdc988a5570b5676ea87aa3dda013c2",
+          "sha1": "20e88f780c57d70d2b58fd9f36c6c5459cc60b0b",
+          "md5": "8c40c4f77b561d35997cbd9541cfd88b"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto-ios",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-sdjwt-ios-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "waltid-sdjwt-ios-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 9597,
+          "sha512": "2661807caf7a293a2f8d976b70eaa3480e69b9cf146a1e96ea2aa10ed303acb040a06de706728a43bbbd3f1cb2154b7cb9f34304fb8ca2e212d9b6eded3f8505",
+          "sha256": "362daacb45b0a137ffcbc55a03d0252680525d1b548a3b944fb2b8a4843e9093",
+          "sha1": "6d7b5f98cae5a82ecf2cfd60e4b3f9a11d236dec",
+          "md5": "7cdc0c7ae23d59ecda2938e7af619a01"
+        }
+      ]
+    }
+  ]
+}

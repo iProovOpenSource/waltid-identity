@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-did/1.0.0-SNAPSHOT/waltid-did-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.did",
+    "module": "waltid-did",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-did-js-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-did-js-1.0.0-SNAPSHOT.klib",
+          "size": 352738,
+          "sha512": "70445fb28bcc929f3a63bb62fc3f958bab6a0e6a68b7ed273b7b56893143698249ee28eaa8745ff75d5c1338b00c8a260dd6b8e35b5eae9638a96ad7b1efc243",
+          "sha256": "efd0cc54ce19e439227ab9d4d8b97b5daff34156fad2600914a24d3947cec9e3",
+          "sha1": "4600fd804b3d777a2fe5b51c46c6bbc705696932",
+          "md5": "c89f0568b9bb4ca30838fcfd23f60b04"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-js",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime-js",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "app.softwork",
+          "module": "kotlinx-uuid-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "net.thauvin.erik.urlencoder",
+          "module": "urlencoder-lib",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-did-js-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-did-js-1.0.0-SNAPSHOT.klib",
+          "size": 352738,
+          "sha512": "70445fb28bcc929f3a63bb62fc3f958bab6a0e6a68b7ed273b7b56893143698249ee28eaa8745ff75d5c1338b00c8a260dd6b8e35b5eae9638a96ad7b1efc243",
+          "sha256": "efd0cc54ce19e439227ab9d4d8b97b5daff34156fad2600914a24d3947cec9e3",
+          "sha1": "4600fd804b3d777a2fe5b51c46c6bbc705696932",
+          "md5": "c89f0568b9bb4ca30838fcfd23f60b04"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "waltid-did-js-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-did-js-1.0.0-SNAPSHOT-sources.jar",
+          "size": 64380,
+          "sha512": "f2ec891a6428b55e07245285f4cd48e088a10c32e5a409adbb3f9fc21783838108b9087b951013a12fc4ee9c5da62ef51c5ad703907b88c3b2dea3b6e2eb13f8",
+          "sha256": "add14e1faee188d8511d701469dfb102ce09a5d5664fcc072e1356ec6c9fca7a",
+          "sha1": "9eef96719e92a06daa4cd40b6390838420b40191",
+          "md5": "5223a44436c7817b394ffc27d18c9822"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-dif-definitions-parser/1.0.0-SNAPSHOT/waltid-dif-definitions-parser-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.dif-definitions-parser",
+    "module": "waltid-dif-definitions-parser",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-dif-definitions-parser-js-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-dif-definitions-parser-js-1.0.0-SNAPSHOT.klib",
+          "size": 64842,
+          "sha512": "2a21ac5386341227666a30331c851894811c6b1ba90076790dcb37b55bbf84061a07e2a372b8fe4d867dcd01dada6e5c459e957fb497fbc205c5e485c74e50da",
+          "sha256": "02cd92171743cf023e3b08f07db4d8848a449fa06224ef73ed0cfbc5b6c4f5b8",
+          "sha1": "e65642e66762555f95af85c12900eee20b40c0c7",
+          "md5": "276e97c83e3d1e8354429141241b5ace"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.eygraber",
+          "module": "jsonpathkt-kotlinx",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.optimumcode",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-dif-definitions-parser-js-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-dif-definitions-parser-js-1.0.0-SNAPSHOT.klib",
+          "size": 64842,
+          "sha512": "2a21ac5386341227666a30331c851894811c6b1ba90076790dcb37b55bbf84061a07e2a372b8fe4d867dcd01dada6e5c459e957fb497fbc205c5e485c74e50da",
+          "sha256": "02cd92171743cf023e3b08f07db4d8848a449fa06224ef73ed0cfbc5b6c4f5b8",
+          "sha1": "e65642e66762555f95af85c12900eee20b40c0c7",
+          "md5": "276e97c83e3d1e8354429141241b5ace"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "waltid-dif-definitions-parser-js-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-dif-definitions-parser-js-1.0.0-SNAPSHOT-sources.jar",
+          "size": 4206,
+          "sha512": "49fa058c5fb18eeb34b816e74b7b4a18cb8dab3a79e10e356e524e6b2c4d0f9b7f4c561000bbdc4b64cb5d473d9325b20a99cb3d328b7d1f90ea13f861758b45",
+          "sha256": "b3f5d4572bda3784eeac814e4f98713ff3ee3ec2270d3cdb4cc7ec9d967c1c22",
+          "sha1": "1d46b883513e59219052839392459971b34ef546",
+          "md5": "8fe13f379f388725b84dd5c6e79904cf"
+        }
+      ]
+    }
+  ]
+}

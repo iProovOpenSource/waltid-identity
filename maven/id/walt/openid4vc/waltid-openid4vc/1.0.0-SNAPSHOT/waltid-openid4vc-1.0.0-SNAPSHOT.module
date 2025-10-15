@@ -1,0 +1,393 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "id.walt.openid4vc",
+    "module": "waltid-openid4vc",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.policies",
+          "module": "waltid-verification-policies",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.did",
+          "module": "waltid-did",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "app.softwork",
+          "module": "kotlinx-uuid-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-openid4vc-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-openid4vc-1.0.0-SNAPSHOT.jar",
+          "size": 101724,
+          "sha512": "cc6311fdc905b6cd57e59f2cc3493a0e918391fa57f7ea0bd630ccdfb404e3ee84c3db4e1bb647454e260f3bdf87a1cd7937be969d86e883b9ae53995bbbfeb1",
+          "sha256": "046a6765d488f9260d458a5c7102a01842fdcac35b2cc6be4be1951d8eeccecb",
+          "sha1": "f0b7363c9449f39c405dc85d0fe8c2646ebbedc2",
+          "md5": "475e4a494d4cb0ce3218a3d8dc9ce3de"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "waltid-openid4vc-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-openid4vc-1.0.0-SNAPSHOT-sources.jar",
+          "size": 100875,
+          "sha512": "e20bfb4b4a261109e0784e3ff00752ad2ef22488b5643dc33a4b6be40c66b6af2fba3230f0a87683d34374d8a7884a7486d7b4906f8af09999ec65aa10dfbf6f",
+          "sha256": "17509e9ba70ef215534f19c1694fd20117a1dfc834f05caf8d1dbb5fce93fb19",
+          "sha1": "64bc3111fb45a487be8c9d4264bcc6a7cec16925",
+          "md5": "02ce32385ff997930fb64cdf12835c7a"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-iosarm64/1.0.0-SNAPSHOT/waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-iosarm64/1.0.0-SNAPSHOT/waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-iosarm64/1.0.0-SNAPSHOT/waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-openid4vc-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-openid4vc-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-openid4vc-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-js/1.0.0-SNAPSHOT/waltid-openid4vc-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-js/1.0.0-SNAPSHOT/waltid-openid4vc-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-js/1.0.0-SNAPSHOT/waltid-openid4vc-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-jvm/1.0.0-SNAPSHOT/waltid-openid4vc-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-jvm/1.0.0-SNAPSHOT/waltid-openid4vc-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-openid4vc-jvm/1.0.0-SNAPSHOT/waltid-openid4vc-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.openid4vc",
+        "module": "waltid-openid4vc-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}

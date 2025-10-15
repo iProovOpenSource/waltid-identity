@@ -310,7 +310,7 @@ data class CoseKey(
     @CborLabel(2) @ByteString val kid: ByteArray? = null,
     @CborLabel(3) val alg: Int? = null,
     @CborLabel(4) val key_ops: List<Int>? = null,
-    @CborLabel(5) @ByteString val `Base IV`: ByteArray? = null,
+    @CborLabel(5) @ByteString val BaseIV: ByteArray? = null,
     /** for OKP and EC2 */
     @CborLabel(-1) val crv: Int? = null,
     /** for OKP and EC2 */
@@ -430,7 +430,7 @@ data class CoseKey(
         if (crv != other.crv) return false
         if (!kid.contentEquals(other.kid)) return false
         if (key_ops != other.key_ops) return false
-        if (!`Base IV`.contentEquals(other.`Base IV`)) return false
+        if (!BaseIV.contentEquals(other.BaseIV)) return false
         if (!x.contentEquals(other.x)) return false
         if (!y.contentEquals(other.y)) return false
         if (!d.contentEquals(other.d)) return false
@@ -444,7 +444,7 @@ data class CoseKey(
         result = 31 * result + (crv ?: 0)
         result = 31 * result + (kid?.contentHashCode() ?: 0)
         result = 31 * result + (key_ops?.hashCode() ?: 0)
-        result = 31 * result + (`Base IV`?.contentHashCode() ?: 0)
+        result = 31 * result + (BaseIV?.contentHashCode() ?: 0)
         result = 31 * result + (x?.contentHashCode() ?: 0)
         result = 31 * result + (y?.contentHashCode() ?: 0)
         result = 31 * result + (d?.contentHashCode() ?: 0)
@@ -570,7 +570,7 @@ object Cose {
         /** Restrict set of permissible operations */
         const val KEY_OPS = 4
 
-        /** Base IV to be XORed with Partial IVs */
+        /** BaseIV to be XORed with Partial IVs */
         const val BASE_IV = 5
     }
 

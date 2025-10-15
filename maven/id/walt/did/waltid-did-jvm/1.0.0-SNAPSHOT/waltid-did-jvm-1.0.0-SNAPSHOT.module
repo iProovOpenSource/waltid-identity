@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-did/1.0.0-SNAPSHOT/waltid-did-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.did",
+    "module": "waltid-did",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-did-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-did-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 790326,
+          "sha512": "9dd18aba0a33171957aac6195fa67058bdfeaa64457eda3dd464c564262fe66438ef2148c279d995db9b8182312948cb467bd7803ae762e19fb94bd95f7acadc",
+          "sha256": "f7695a369ddca5ed083b99c12e12fa14078e57b1ffaf8a9357b8ff2700538ffb",
+          "sha1": "09c4163561d18e3e6e0b52f8cf699f6dca30b3fc",
+          "md5": "b28481a5f43227aa424d39593d934525"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.github.erdtman",
+          "module": "java-json-canonicalization",
+          "version": {
+            "requires": "1.1"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime-jvm",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "app.softwork",
+          "module": "kotlinx-uuid-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "net.thauvin.erik.urlencoder",
+          "module": "urlencoder-lib",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-did-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-did-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 790326,
+          "sha512": "9dd18aba0a33171957aac6195fa67058bdfeaa64457eda3dd464c564262fe66438ef2148c279d995db9b8182312948cb467bd7803ae762e19fb94bd95f7acadc",
+          "sha256": "f7695a369ddca5ed083b99c12e12fa14078e57b1ffaf8a9357b8ff2700538ffb",
+          "sha1": "09c4163561d18e3e6e0b52f8cf699f6dca30b3fc",
+          "md5": "b28481a5f43227aa424d39593d934525"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "waltid-did-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-did-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "size": 63375,
+          "sha512": "5e0beacc3aad4ef0bbf6c7e019755f524f3225c200832a7e00833f52a969f8efde4147d9947cef3b63a38af6a1d4df37876db33e00a6108ae3beea0bf736100f",
+          "sha256": "447bbf5a04d23009f8c5f36f6c52e17fd88165f428a87adee628197b4646baf1",
+          "sha1": "c0a77a3a805b0641022692ee1535531d352e98aa",
+          "md5": "4601e01c3d7a60be934982f76d78d62f"
+        }
+      ]
+    }
+  ]
+}

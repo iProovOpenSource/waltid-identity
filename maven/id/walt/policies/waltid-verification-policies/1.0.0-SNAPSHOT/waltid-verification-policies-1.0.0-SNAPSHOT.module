@@ -1,0 +1,392 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "id.walt.policies",
+    "module": "waltid-verification-policies",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "com.eygraber",
+          "module": "jsonpathkt-kotlinx",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.optimumcode",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.dif-definitions-parser",
+          "module": "waltid-dif-definitions-parser",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-verification-policies-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-verification-policies-1.0.0-SNAPSHOT.jar",
+          "size": 32778,
+          "sha512": "4dc4fce49a639e8f4f96615d289e35983187dd87e217a0d9c489421f87ab559a38d481cd8d1912db6332b57fdd09eb8a3fd6c3be918369afe34e5566f1a6483e",
+          "sha256": "4ef8621981bfebb2eaf9ff402f87d51a444ae98edb307ef4af6c6a3838a445b4",
+          "sha1": "fb5174d6e27d21a0c76f49322a679dea23610a8b",
+          "md5": "ec0c76a821d16c4024fe25adcd9724ba"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "waltid-verification-policies-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-verification-policies-1.0.0-SNAPSHOT-sources.jar",
+          "size": 31055,
+          "sha512": "21aa1846f4a4cbd565d69c5e31e702c3bd8b6c2eaafc4936aaa7d90f13e3177dc0a36b24f10585c1bbc872eaf37be5184981a7df80676011e7e2b7331b6b24f4",
+          "sha256": "5a575562931bc57e1951de21bc83086cd0c8f6f11afddc4a9aa19aea66fffd19",
+          "sha1": "1b691b5af73d3398aee580bb6ad41a2d1b2611ae",
+          "md5": "f8fcfbb7da3daa0875f3987f6b053d01"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-iosarm64/1.0.0-SNAPSHOT/waltid-verification-policies-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-iosarm64/1.0.0-SNAPSHOT/waltid-verification-policies-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-iosarm64/1.0.0-SNAPSHOT/waltid-verification-policies-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-js/1.0.0-SNAPSHOT/waltid-verification-policies-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-js/1.0.0-SNAPSHOT/waltid-verification-policies-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-js/1.0.0-SNAPSHOT/waltid-verification-policies-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-jvm/1.0.0-SNAPSHOT/waltid-verification-policies-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-jvm/1.0.0-SNAPSHOT/waltid-verification-policies-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-verification-policies-jvm/1.0.0-SNAPSHOT/waltid-verification-policies-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.policies",
+        "module": "waltid-verification-policies-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}

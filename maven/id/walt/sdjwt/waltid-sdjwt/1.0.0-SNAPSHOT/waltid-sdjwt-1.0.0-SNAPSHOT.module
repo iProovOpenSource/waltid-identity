@@ -1,0 +1,315 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "id.walt.sdjwt",
+    "module": "waltid-sdjwt",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-random",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "4.0.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-sdjwt-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-sdjwt-1.0.0-SNAPSHOT.jar",
+          "size": 18286,
+          "sha512": "103ffbddc224d3557f904f87b348892aead939967f95add4e7033fc003fcbfd748d0d1b88099b5fe6699c4abdbf231d3ef7e98196c6b746c82f1f5a4d6df2e55",
+          "sha256": "1da8679b89f9dacd2dea5a596a111d203290d446bb2742bc4dce6aa3d61202f2",
+          "sha1": "8d3c049c028263c5cedf8ecb97d8b02149e9cbdb",
+          "md5": "7cd31b384ed5e9b321999be16bc0e5a8"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "waltid-sdjwt-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-sdjwt-1.0.0-SNAPSHOT-sources.jar",
+          "size": 21803,
+          "sha512": "f5300e86f3c9f69eaa270699388ab053dea6cfbdc8f0144b1dbe7d213085b96733329b48ceaa1d219e0c03ebe5a3272f24fd6903af78fb17e9f4af0a35ac7db6",
+          "sha256": "afd883002cced8c848df6a226b28756f6be4328284ef185564f171f82f592416",
+          "sha1": "0fffb8683b3781f90de0ed25d5cbd9f8ff5d194c",
+          "md5": "3c9764b9b82b9b457bad16314f462f68"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-iosarm64/1.0.0-SNAPSHOT/waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-iosarm64/1.0.0-SNAPSHOT/waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-iosarm64/1.0.0-SNAPSHOT/waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-sdjwt-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-sdjwt-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-sdjwt-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-js/1.0.0-SNAPSHOT/waltid-sdjwt-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-js/1.0.0-SNAPSHOT/waltid-sdjwt-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-js/1.0.0-SNAPSHOT/waltid-sdjwt-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-jvm/1.0.0-SNAPSHOT/waltid-sdjwt-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-jvm/1.0.0-SNAPSHOT/waltid-sdjwt-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-sdjwt-jvm/1.0.0-SNAPSHOT/waltid-sdjwt-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.sdjwt",
+        "module": "waltid-sdjwt-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}

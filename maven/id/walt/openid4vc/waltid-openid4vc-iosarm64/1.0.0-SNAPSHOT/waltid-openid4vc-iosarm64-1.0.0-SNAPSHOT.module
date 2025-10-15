@@ -1,0 +1,344 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-openid4vc/1.0.0-SNAPSHOT/waltid-openid4vc-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.openid4vc",
+    "module": "waltid-openid4vc",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.policies",
+          "module": "waltid-verification-policies",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.did",
+          "module": "waltid-did",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "app.softwork",
+          "module": "kotlinx-uuid-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-openid4vc-iosArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT.klib",
+          "size": 771229,
+          "sha512": "2c40cfde44e55580001ca835dcef532295514d164e96471d74ff4d4fc7a97cd72be5dcb00ca35d5b734b00272c5495df96acb34f669fe69f385aaddfdfacf213",
+          "sha256": "03ec1bac6bdfa807b2ed51ff066eb3a5d1c7101e2b24aaa81e3ab797d1c741c8",
+          "sha1": "d53e3afa0f46da7473f0ee13aec87457a77bcb07",
+          "md5": "260d82358c414eee6a61ead0c7f1ac79"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 100875,
+          "sha512": "2dd012efe30e5aa3c31841ca696a8bf7c21d3907a15edb633babe7c49555f003f2356e4f4f921045ea86d9f6f27a26cc5af847565d6aaf658701c6c45dffec0c",
+          "sha256": "0b96e5741c08871979b4f29ea1dba345f9ee46c0bd1ed5713249d3461af5dd03",
+          "sha1": "253c7fdcb02c823c57cbc6e855be5e4a3d59c2d8",
+          "md5": "afef49a97054a75be985e93702600efe"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.policies",
+          "module": "waltid-verification-policies",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.did",
+          "module": "waltid-did",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "app.softwork",
+          "module": "kotlinx-uuid-core",
+          "version": {
+            "requires": "0.1.6"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 2441,
+          "sha512": "c6d80ff647961bf0171383cf61eb6882ad950e30b9cf69903b3260cf8d389452bc74b922c04ff38ad752354fce5abe03f07748a37c725b5ad5605059287fb858",
+          "sha256": "833286678ff2225fcdeb2841b0d88ed7a3bef08079c2aee75af516e3951fe301",
+          "sha1": "802797b3cba6d156b529299d0c2a0e49065ae740",
+          "md5": "8c0e191946d3bedb3737534155aad63e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-verification-policies/1.0.0-SNAPSHOT/waltid-verification-policies-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.policies",
+    "module": "waltid-verification-policies",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "com.eygraber",
+          "module": "jsonpathkt-kotlinx",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.optimumcode",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.dif-definitions-parser",
+          "module": "waltid-dif-definitions-parser",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-verification-policies-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
+          "size": 241636,
+          "sha512": "ac339a464f29f5287ae6f98218f1398262a3eb63b6335b3a10bef91e5b115747fefa3987781a4d876adc48fb1cbc48787f795c3379039ad5ae62d0603e172ddb",
+          "sha256": "3e0370b1bd086441ee3f6eef52f2f0dd3c595d9010669c26afb8cc26841d6af5",
+          "sha1": "ffc18c0917ffd1615717e0ef96467692a2f8973f",
+          "md5": "769b4226661711beb1a2060b06af775a"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 31055,
+          "sha512": "d81f7ed99f4e6991be94c88c9d1bd584dfb37fb9705d8199e2e28479d26d598685bb2d49a00455edaf9338cdca266a2c8a0883e3d52114d321dfd026fe8fe532",
+          "sha256": "0321a27be3dbc81fe7d482f99802270c9acbb1f27f56fb873c2eafc101e24f57",
+          "sha1": "d9bc75d193adfbc69f402ae8c398e1d2ddb7706d",
+          "md5": "179b9ac2e8f726b4ce1eb7d29bbdb1eb"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "com.eygraber",
+          "module": "jsonpathkt-kotlinx",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.optimumcode",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.dif-definitions-parser",
+          "module": "waltid-dif-definitions-parser",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.sdjwt",
+          "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "waltid-verification-policies-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 4341,
+          "sha512": "fd15500a96cc616171548ec11c2e8ee28595be31d0b165fa9844b80d347daefbaaa6776eb605ead2ed263c30140547e1178b424f3077714c2dd1bbf69f240205",
+          "sha256": "82266948f81eb0e51c29b5202c3d8e6b41a721257a8a0566bc686eb733085905",
+          "sha1": "412aca8ba29bae30840ea4411909990abbdc1b48",
+          "md5": "65a09ecb391dbf7bc10d2a079fa659f8"
+        }
+      ]
+    }
+  ]
+}

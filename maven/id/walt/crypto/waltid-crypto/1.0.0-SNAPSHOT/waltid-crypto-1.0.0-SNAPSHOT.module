@@ -1,0 +1,401 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "id.walt.crypto",
+    "module": "waltid-crypto",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-target-ios",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "sha2"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.github.reactivecircus.cache4k",
+          "module": "cache4k",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "hmac-sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-crypto-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-crypto-1.0.0-SNAPSHOT.jar",
+          "size": 41018,
+          "sha512": "40be004900c616258ca9e3e696959d058f41fdafd1d98d27a3a3a899ccd892bba717e29519d7a50e3160170a5bfad4232176fa9f1358c29fd73d581bb6e98e1f",
+          "sha256": "3c8682bc0a674234c4137aa572e9eb38018a647aea22ee7526a7191e2f641680",
+          "sha1": "bb18fd86f584a7609116745fb749e8aa85619950",
+          "md5": "dc9a0a393dc16d196c84067290e69108"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "waltid-crypto-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-crypto-1.0.0-SNAPSHOT-sources.jar",
+          "size": 53971,
+          "sha512": "6a6218a0cfe4b6d9f7f5c00791b0edf5f1a429d2ed89d8085313b822287ae7badddf834883bfb84793bd96e44dc1c66ba92f011cd2cd1640d772df3fd8095108",
+          "sha256": "a26f2343c61eac58eac4b788c74ec94194d10ef35331daa917b43af747fbaa1b",
+          "sha1": "656c8b74d64f057884174d2d5985f24687c4ed9d",
+          "md5": "d89f5c72fa06c5206480a8c59663daa1"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-iosarm64/1.0.0-SNAPSHOT/waltid-crypto-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-iosarm64/1.0.0-SNAPSHOT/waltid-crypto-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-iosarm64/1.0.0-SNAPSHOT/waltid-crypto-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-js/1.0.0-SNAPSHOT/waltid-crypto-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-js/1.0.0-SNAPSHOT/waltid-crypto-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-js/1.0.0-SNAPSHOT/waltid-crypto-js-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-jvm/1.0.0-SNAPSHOT/waltid-crypto-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-jvm/1.0.0-SNAPSHOT/waltid-crypto-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../waltid-crypto-jvm/1.0.0-SNAPSHOT/waltid-crypto-jvm-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-crypto-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}

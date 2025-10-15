@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "id.walt.crypto",
+    "module": "waltid-target-ios",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-target-ios-metadata-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-target-ios-1.0.0-SNAPSHOT.jar",
+          "size": 762,
+          "sha512": "e491b5a616ca215a9ca685449cc9f7ff3a19a7663a99ce6e9d9ed2bd46e6f9412cd5cbc9b1d61ca2e6c202fcfc5f80bd4a4defab7dd7b9f7bf50cf01d18ff4a2",
+          "sha256": "5dfe9256db902bfeceaafd5e218729780a76186db980d366757c5cdb6a42c7a9",
+          "sha1": "0a06b8e5c2fd3935fdd40d8a45dc0f4b37e93b57",
+          "md5": "ac3e53dcce657174a010220e2d056a96"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "waltid-target-ios-kotlin-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-target-ios-1.0.0-SNAPSHOT-sources.jar",
+          "size": 11219,
+          "sha512": "9957db3009465970cf608796ef4460d5c9a8e36336c89ff5d1d76c7833b794cefc6f89c47afe2d6150bc9c38c1a13bef8b68bfcebfbf94d65907007b4be9aff5",
+          "sha256": "db20969e183baa46478e719313c139b8d90e46acacdf306971a67d6e1a834e64",
+          "sha1": "d728d6d78e47eb5dc5f09a63b40aee82e2992b27",
+          "md5": "613c876386f383d96f85461e4fb498c2"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-target-ios-iosarm64/1.0.0-SNAPSHOT/waltid-target-ios-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-target-ios-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-target-ios-iosarm64/1.0.0-SNAPSHOT/waltid-target-ios-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-target-ios-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-target-ios-iosarm64/1.0.0-SNAPSHOT/waltid-target-ios-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-target-ios-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-target-ios-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-target-ios-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-target-ios-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-target-ios-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-target-ios-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-target-ios-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../waltid-target-ios-iossimulatorarm64/1.0.0-SNAPSHOT/waltid-target-ios-iossimulatorarm64-1.0.0-SNAPSHOT.module",
+        "group": "id.walt.crypto",
+        "module": "waltid-target-ios-iossimulatorarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}

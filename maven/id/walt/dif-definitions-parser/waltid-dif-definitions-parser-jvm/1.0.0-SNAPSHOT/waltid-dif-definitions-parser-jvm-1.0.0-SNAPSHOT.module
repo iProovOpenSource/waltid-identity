@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-dif-definitions-parser/1.0.0-SNAPSHOT/waltid-dif-definitions-parser-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.dif-definitions-parser",
+    "module": "waltid-dif-definitions-parser",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-dif-definitions-parser-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-dif-definitions-parser-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 94519,
+          "sha512": "a4891556960969f174bb12b8814fdeaf190fe13d30de0ec42a20b3305359545e472f0f0b01959dfe89746bf9402bfcb27d025c0de7e13c659761e92350316b4d",
+          "sha256": "bfd2b2fcf0f7e1352f9cdc2ad982d548eecd822ee2afb746c993025eee34bb19",
+          "sha1": "23cc99730fd66e231a64683c69e94fe4c044efcb",
+          "md5": "aa0960c0936afc72091c9d5622a6c812"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "com.eygraber",
+          "module": "jsonpathkt-kotlinx",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.github.optimumcode",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "id.walt.credentials",
+          "module": "waltid-w3c-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-dif-definitions-parser-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-dif-definitions-parser-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 94519,
+          "sha512": "a4891556960969f174bb12b8814fdeaf190fe13d30de0ec42a20b3305359545e472f0f0b01959dfe89746bf9402bfcb27d025c0de7e13c659761e92350316b4d",
+          "sha256": "bfd2b2fcf0f7e1352f9cdc2ad982d548eecd822ee2afb746c993025eee34bb19",
+          "sha1": "23cc99730fd66e231a64683c69e94fe4c044efcb",
+          "md5": "aa0960c0936afc72091c9d5622a6c812"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "waltid-dif-definitions-parser-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-dif-definitions-parser-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "size": 4206,
+          "sha512": "49fa058c5fb18eeb34b816e74b7b4a18cb8dab3a79e10e356e524e6b2c4d0f9b7f4c561000bbdc4b64cb5d473d9325b20a99cb3d328b7d1f90ea13f861758b45",
+          "sha256": "b3f5d4572bda3784eeac814e4f98713ff3ee3ec2270d3cdb4cc7ec9d967c1c22",
+          "sha1": "1d46b883513e59219052839392459971b34ef546",
+          "md5": "8fe13f379f388725b84dd5c6e79904cf"
+        }
+      ]
+    }
+  ]
+}

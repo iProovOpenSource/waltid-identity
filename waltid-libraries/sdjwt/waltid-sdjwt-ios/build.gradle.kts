@@ -2,8 +2,11 @@ plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
     kotlin("plugin.serialization")
+    id("maven-publish")
     id("com.github.ben-manes.versions")
 }
+
+group = "id.walt.sdjwt"
 
 kotlin {
     iosArm64()

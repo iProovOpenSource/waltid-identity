@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-cose/1.0.0-SNAPSHOT/waltid-cose-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.crypto",
+    "module": "waltid-cose",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-target-ios",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "bom",
+          "version": {
+            "requires": "0.7.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "hmac-sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-cose-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
+          "size": 87425,
+          "sha512": "28ed625693956c539dfb768cd160bd08aaac0ef059eb6396c4b001c0ca4a023db13503eb94802a08a533ef2c0ae06012c1c43c323391fcaf5b5fb4b150419196",
+          "sha256": "17ebba9269573fcc4245e7f76124768e8cd7c602e6370a58341973f8fd552224",
+          "sha1": "800ab5f11fd41e1e1e309c5e3fc27849352b042c",
+          "md5": "7b7c2e7d928a1588c2d0726bd40259b9"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 10998,
+          "sha512": "a6f49c30b3716ee09e51c627ac9ada99e2fbf4e2101fa2436406e8220272ddacade78204003cc7f034134d2e96e68c207f49d206d835000a50459abdf489c021",
+          "sha256": "387b323c5267b3b77988067e53f1d25dd16cbbc3d2bc1668e41ae16b05ebefb4",
+          "sha1": "50def13982504f5ac134047d1362641dca8184ea",
+          "md5": "0db79373423c90600906436e451eb7f0"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-target-ios",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "bom",
+          "version": {
+            "requires": "0.7.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "hmac-sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

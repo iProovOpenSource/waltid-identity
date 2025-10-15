@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-sdjwt/1.0.0-SNAPSHOT/waltid-sdjwt-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.sdjwt",
+    "module": "waltid-sdjwt",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-sdjwt-js-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-sdjwt-js-1.0.0-SNAPSHOT.klib",
+          "size": 143268,
+          "sha512": "b851a0e7982945df6e29c03f26f0fffb1fc080671ef145589551a0aae32dfecc69465ccfe6e79a9a009d15441c36fbeaca8d02e124578319c6296df15ae23f88",
+          "sha256": "ff30857fd4a0f4e9c57b7fd2f9b87817d35f9aeadb94a857446128ffefc80ad0",
+          "sha1": "d6006861cbdb6db8488d039946f1a2e38677507a",
+          "md5": "8078e1e66ee69e54bb78b293a1196cb6"
+        }
+      ]
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-dom-api-compat",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-random",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "4.0.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-sdjwt-js-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-sdjwt-js-1.0.0-SNAPSHOT.klib",
+          "size": 143268,
+          "sha512": "b851a0e7982945df6e29c03f26f0fffb1fc080671ef145589551a0aae32dfecc69465ccfe6e79a9a009d15441c36fbeaca8d02e124578319c6296df15ae23f88",
+          "sha256": "ff30857fd4a0f4e9c57b7fd2f9b87817d35f9aeadb94a857446128ffefc80ad0",
+          "sha1": "d6006861cbdb6db8488d039946f1a2e38677507a",
+          "md5": "8078e1e66ee69e54bb78b293a1196cb6"
+        }
+      ]
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "waltid-sdjwt-js-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-sdjwt-js-1.0.0-SNAPSHOT-sources.jar",
+          "size": 25620,
+          "sha512": "12ac9593842ab30cd356dd1e131a9c288a18ddbd8569b4cec706391af3b1eeda33055fc88301b83e70ec76383b83a976d03b3afa6d818293f424356949736ff9",
+          "sha256": "48b8d1f59853f4f1b2669ed8628e82b9b029415cb906049aabe563e4e33924a7",
+          "sha1": "086887829be4603bc894653b5ffc0ec5bc79be19",
+          "md5": "7fe575cd74cfcd5949afb2f5b5870e4b"
+        }
+      ]
+    }
+  ]
+}

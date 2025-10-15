@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-cose/1.0.0-SNAPSHOT/waltid-cose-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.crypto",
+    "module": "waltid-cose",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 109164,
+          "sha512": "3e2ec7de91fb3f41842a1d3c75dad943e037dc5600ae6948dcd68a56361d6404b4743bb53df96a04d01b15538814cd2764efba13c084d1c92502533bb2d72d38",
+          "sha256": "961aa0b7edef3703f57fdc1b072da55174aaf791369d64809aae085f158f0e5f",
+          "sha1": "acf65dd839e9c48f8c954dea325b549d24d7b2c1",
+          "md5": "ca1a562f80804b00e364ad4861541a13"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-crypto",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "bom",
+          "version": {
+            "requires": "0.7.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "hmac-sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
+          "url": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
+          "size": 109164,
+          "sha512": "3e2ec7de91fb3f41842a1d3c75dad943e037dc5600ae6948dcd68a56361d6404b4743bb53df96a04d01b15538814cd2764efba13c084d1c92502533bb2d72d38",
+          "sha256": "961aa0b7edef3703f57fdc1b072da55174aaf791369d64809aae085f158f0e5f",
+          "sha1": "acf65dd839e9c48f8c954dea325b549d24d7b2c1",
+          "md5": "ca1a562f80804b00e364ad4861541a13"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "waltid-cose-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-cose-jvm-1.0.0-SNAPSHOT-sources.jar",
+          "size": 10998,
+          "sha512": "a6f49c30b3716ee09e51c627ac9ada99e2fbf4e2101fa2436406e8220272ddacade78204003cc7f034134d2e96e68c207f49d206d835000a50459abdf489c021",
+          "sha256": "387b323c5267b3b77988067e53f1d25dd16cbbc3d2bc1668e41ae16b05ebefb4",
+          "sha1": "50def13982504f5ac134047d1362641dca8184ea",
+          "md5": "0db79373423c90600906436e451eb7f0"
+        }
+      ]
+    }
+  ]
+}

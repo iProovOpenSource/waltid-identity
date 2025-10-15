@@ -1,8 +1,11 @@
 plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
+    id("maven-publish")
     id("com.github.ben-manes.versions")
 }
+
+group = "id.walt.crypto"
 
 kotlin {
 

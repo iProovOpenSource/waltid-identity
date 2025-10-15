@@ -1,0 +1,360 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-crypto/1.0.0-SNAPSHOT/waltid-crypto-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.crypto",
+    "module": "waltid-crypto",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-target-ios",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "sha2"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.github.reactivecircus.cache4k",
+          "module": "cache4k",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "hmac-sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-crypto-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
+          "size": 329949,
+          "sha512": "cb1c2c5aaf1e53909d27e2ec529815145d3d1667b06579569ffbf1571cd1a238a7d2de8fc5660a2d5b8b7f59b72b7171c99e89a0ad48165f949e7d84d9da9b1a",
+          "sha256": "0c17d9171fc4fac3e961e1f23f7ac04e3a4ccf0d54c9f00977f7ed172e064fad",
+          "sha1": "584bca3330d844d1efd5f25c97832900aab9ec13",
+          "md5": "02c5d4285901588ab10a819576aa745e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 53971,
+          "sha512": "490be0bb2f52851eb2b30fe69c93dfb4a9bc216b545e520271ceb960da68d19c8a4504424e99b0ddcf8bd6b31bd8a7fad1376c982b4027d1dd93e1bc42be0542",
+          "sha256": "4bbb78d8ada40534ffb4c8fc85a0907f42739669d35c884bdc9aec8d10be71d6",
+          "sha1": "ad0b6909d35fa4464c4b879114c91cb197e75fa3",
+          "md5": "319f79798a18a6433bb518ce10c5ce34"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-runtime",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "id.walt.crypto",
+          "module": "waltid-target-ios",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.hash",
+          "module": "sha2"
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "io.github.reactivecircus.cache4k",
+          "module": "cache4k",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
+          "group": "love.forte.plugin.suspend-transform",
+          "module": "suspend-transform-annotation",
+          "version": {
+            "requires": "2.2.20-0.13.1"
+          }
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "bom",
+          "version": {
+            "requires": "0.6.1"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.kotlincrypto.macs",
+          "module": "hmac-sha2"
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 5273,
+          "sha512": "1938a76b9dca80f8647002880f7b52f28715e840c5e2a16bb33e3a9df40edeadf33eecb210a2ce2dca1d02e0b2029e6476109564e2451ccc83d4c9832768bd65",
+          "sha256": "787d91ce83038bd91f529c9e14bb1ad19c601eea4d49dd325d87fdd9b3670716",
+          "sha1": "84015090a740badc41f4a8dc7343b9c7f586330d",
+          "md5": "5afe0397c6ab683c83b21aadde039706"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../waltid-sdjwt/1.0.0-SNAPSHOT/waltid-sdjwt-1.0.0-SNAPSHOT.module",
+    "group": "id.walt.sdjwt",
+    "module": "waltid-sdjwt",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.1.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-random",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "4.0.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-sdjwt-iosArm64Main-1.0.0-SNAPSHOT.klib",
+          "url": "waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT.klib",
+          "size": 127866,
+          "sha512": "ad3e22ceee45ea0467d0ec0990acc663e6a582dd8ced539f41e08e51062f7cc46d5cb0702417b2cba63569c9bc02222790b0860ef6720d552a452c4f7d3a5812",
+          "sha256": "c587b676eb8968ff9adae4043ca98a5b78bde5ddcb20de55e5a50429d86dca35",
+          "sha1": "21f44f12e0d0cdce403908b6cac529a576032c74",
+          "md5": "cbff288cdf6a76fed6ece4b30ea24f43"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "url": "waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT-sources.jar",
+          "size": 21803,
+          "sha512": "efe2eb3ad032133519232c45585dfa684391fcb022c5187bf3afc5f025ac7cc38e2051ea848f84e37af60695b70bde26fa145148809bb9a70fc8af5fc199d349",
+          "sha256": "a7b7ccac0483bab0638ac3c925f8e542e44dcd1a29330658e1a77c58c350b9b0",
+          "sha1": "c5ce5898c8f03b48c2b1bf9575bfcf6ea65bffa9",
+          "md5": "fa4e6e79f394c0ed5f28613f92b76035"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "dev.whyoleg.cryptography",
+          "module": "cryptography-random",
+          "version": {
+            "requires": "0.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.7.1"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "4.0.10"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "url": "waltid-sdjwt-iosarm64-1.0.0-SNAPSHOT-metadata.jar",
+          "size": 2407,
+          "sha512": "8620ec1ad5485a8966e316ed91ff56b4de34fb4a83b5afe34c95be1d72fc0e30ae3afe12f593f95c5b922e981da4df6c892d928954b32c7e05d5f17ebea33234",
+          "sha256": "fafdbdff0953d3955270022290317fed207bced1f1c90b9ffff455f9c4c00acf",
+          "sha1": "02d5ba96259991556f621de6982ef98e3c574b25",
+          "md5": "2e2f3e3b00d9f1509bc75b89c3e0f32c"
+        }
+      ]
+    }
+  ]
+}
