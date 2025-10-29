@@ -3,37 +3,37 @@
   <groupId>id.walt.crypto</groupId>
   <artifactId>waltid-target-ios</artifactId>
   <versioning>
-    <lastUpdated>20251015061654</lastUpdated>
+    <lastUpdated>20251029103950</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>kotlin-tooling-metadata</classifier>
-        <extension>json</extension>
+        <extension>module</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015061654</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015061654</updated>
+        <updated>20251029103950</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015061654</updated>
+        <updated>20251029103950</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20251029103950</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015061654</updated>
+        <updated>20251029103950</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
+        <classifier>kotlin-tooling-metadata</classifier>
+        <extension>json</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015061654</updated>
+        <updated>20251029103950</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

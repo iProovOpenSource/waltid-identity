@@ -143,11 +143,11 @@
         {
           "name": "waltid-did-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-did-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
-          "size": 338535,
-          "sha512": "f719b55f4e8f56dee4166a17b46522a90d22abd6e6749dd91c58fcbeac54bc8936f70bc2547c688967ed979b79c156bd995a9920fb992f497e424936621350e0",
-          "sha256": "9930b20b418a6f95c4b92668dbefac5f94cfd13203a1b1d2b75c6fa96f040164",
-          "sha1": "e757172296343a0d4bd21c3b243960f0e21228c7",
-          "md5": "409206bc5ec7971b10a1a6f715014210"
+          "size": 338538,
+          "sha512": "88f2ca03c93dc87847da7a9f2faa4f83c59f85016747acbef8726c721f9b85f5a371f51a2f1bcd35331d1101ebaf3cb9d986c8ee1e8b1bb23c9583621e3ca304",
+          "sha256": "ad25452e23700f30fd371fd15e62094b4448324df2f0f41b59e20f064b2a85a6",
+          "sha1": "a2d8c803a38221b7e62940e6dc4f858fa5b70aa1",
+          "md5": "74e7d095896cc651c75f7758949d6b83"
         }
       ]
     },
@@ -166,11 +166,11 @@
         {
           "name": "waltid-did-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-did-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
-          "size": 63372,
-          "sha512": "df91dcd36dc58a2b665ba77908d2a9d3190a9e8e6d5e761c86afbf62085b8b4fa1f78562d6dd1dda12fe61d0af98a61676c3c36285c1f8f4ba8d26308e2b1641",
-          "sha256": "165266166dafef1aa16c76c47fc68ed273c5a78764863cdc14f7a288c7f75260",
-          "sha1": "5baaa9ea94c15d1b12bdefb78d09a13cd8cfa7b6",
-          "md5": "95d582ace56f4ba917b2d53ff471c6ab"
+          "size": 63368,
+          "sha512": "f2dd913a61340ccd60e42727d014ad05d406c8e04fc98348c59544571722a33c18206d623a9802f466627327704993bcf657e398b8fe97528a4db1233569f210",
+          "sha256": "4881f34c8ca5a96163a54daa2f7d8bdc21e29c0827a61530a947e8ea69638555",
+          "sha1": "3107072dceba063de7e79c33d4a5b224a8f832bb",
+          "md5": "e1e601f8fff5a10c02b513e912e46930"
         }
       ]
     },

@@ -44,11 +44,11 @@
         {
           "name": "waltid-verification-policies-js-1.0.0-SNAPSHOT.klib",
           "url": "waltid-verification-policies-js-1.0.0-SNAPSHOT.klib",
-          "size": 251094,
-          "sha512": "73617b50720af068117fbbf5aa9f6bc5314d60b340fd45bdab983486bb174205d252f05abbe24c9491d32da37988875d0b20f99c92719eefe53ebe602d169e2d",
-          "sha256": "35bf417ec03052768502ed627c89cb5bbbe024b6f4c1c16e4f61ccc554e435af",
-          "sha1": "31b9b215c97c007e16f2874fc328f0ce3fd62726",
-          "md5": "9518a8497891cfad5379c789e10a3236"
+          "size": 251104,
+          "sha512": "7802caa8812e6e0718c18363c2940d2942603614af099ac71e4b9f9e6f1a35a054fc7ccd0fcf4885655ee666e814fb989921494acd90eeddd176d4b3fe71a445",
+          "sha256": "c4d095608cd0e566951c6ee3e3e4d7ddb842e4272d5886f856aba7f3a33335a4",
+          "sha1": "661824b0f3b699e7352e7b318ea86262c81000ac",
+          "md5": "b787c39af97593fe9a9efad461987c73"
         }
       ]
     },
@@ -121,6 +121,13 @@
         {
           "group": "id.walt.sdjwt",
           "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
           "version": {
             "requires": "1.0.0-SNAPSHOT"
           }
@@ -207,11 +214,11 @@
         {
           "name": "waltid-verification-policies-js-1.0.0-SNAPSHOT.klib",
           "url": "waltid-verification-policies-js-1.0.0-SNAPSHOT.klib",
-          "size": 251094,
-          "sha512": "73617b50720af068117fbbf5aa9f6bc5314d60b340fd45bdab983486bb174205d252f05abbe24c9491d32da37988875d0b20f99c92719eefe53ebe602d169e2d",
-          "sha256": "35bf417ec03052768502ed627c89cb5bbbe024b6f4c1c16e4f61ccc554e435af",
-          "sha1": "31b9b215c97c007e16f2874fc328f0ce3fd62726",
-          "md5": "9518a8497891cfad5379c789e10a3236"
+          "size": 251104,
+          "sha512": "7802caa8812e6e0718c18363c2940d2942603614af099ac71e4b9f9e6f1a35a054fc7ccd0fcf4885655ee666e814fb989921494acd90eeddd176d4b3fe71a445",
+          "sha256": "c4d095608cd0e566951c6ee3e3e4d7ddb842e4272d5886f856aba7f3a33335a4",
+          "sha1": "661824b0f3b699e7352e7b318ea86262c81000ac",
+          "md5": "b787c39af97593fe9a9efad461987c73"
         }
       ]
     },

@@ -80,6 +80,13 @@
           }
         },
         {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-datetime",
           "version": {
@@ -154,11 +161,11 @@
         {
           "name": "waltid-verification-policies-1.0.0-SNAPSHOT.jar",
           "url": "waltid-verification-policies-1.0.0-SNAPSHOT.jar",
-          "size": 32778,
-          "sha512": "4dc4fce49a639e8f4f96615d289e35983187dd87e217a0d9c489421f87ab559a38d481cd8d1912db6332b57fdd09eb8a3fd6c3be918369afe34e5566f1a6483e",
-          "sha256": "4ef8621981bfebb2eaf9ff402f87d51a444ae98edb307ef4af6c6a3838a445b4",
-          "sha1": "fb5174d6e27d21a0c76f49322a679dea23610a8b",
-          "md5": "ec0c76a821d16c4024fe25adcd9724ba"
+          "size": 32789,
+          "sha512": "12485fb7f806f4951cafc5bb7e4bfa0da84742a843fa6a01c839b875012e98ffc1023881e1e86ad828be8223c6ad1443632eaa538be86d4ec41f610bdec0bff0",
+          "sha256": "28edc7ce5782ceaca4cdce26b6fdfcb05635e184a4c5b1a573045ba1dbe4fbdd",
+          "sha1": "5a1afd26c6a75156c041e46a44afb7060be9cdba",
+          "md5": "bdb67a762e2e93620cd43bfab97b6e90"
         }
       ]
     },

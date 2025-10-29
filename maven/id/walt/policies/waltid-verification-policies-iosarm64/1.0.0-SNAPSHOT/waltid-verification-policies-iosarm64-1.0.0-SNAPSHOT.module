@@ -83,6 +83,13 @@
           }
         },
         {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-datetime",
           "version": {
@@ -157,11 +164,11 @@
         {
           "name": "waltid-verification-policies-iosArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-verification-policies-iosarm64-1.0.0-SNAPSHOT.klib",
-          "size": 241570,
-          "sha512": "cba9ae84e5abf58d4065d18b2542ebbef6f6f1faa5ae816be714284de0fd8ccc39098f76c23ba2f70f2991b00586ae95d9eb45303f8d1e8e35e88bd33e52be44",
-          "sha256": "5db6815f6a194500ddf3c71608a5181f511b66c20a3a846d8b3cf01682bdaefd",
-          "sha1": "ce9276bc0fcee0e5326030cd79efb9b4b929ddee",
-          "md5": "7522ab672061d9a3d779d5605a7d238a"
+          "size": 241581,
+          "sha512": "1450a6c00c3aef7801eb0dd32dc1ad194034e772ff8f215e466a2f7fefeb5d4f328b88195f492286279f98d7ff4075fce7e4698e02f84bb0caff560e70b96c8f",
+          "sha256": "3056bf6eed3ab7cc12198340c8c16928ab663eb5f025b73ba547b9769fce4dbd",
+          "sha1": "f97b3bf166e5abdf4220932da89d0fb00605b796",
+          "md5": "a728b2208e7c6f6a3d9644ec3d55f1c4"
         }
       ]
     },
@@ -251,6 +258,13 @@
         {
           "group": "id.walt.sdjwt",
           "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
           "version": {
             "requires": "1.0.0-SNAPSHOT"
           }

@@ -37,11 +37,11 @@
         {
           "name": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
           "url": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 109164,
-          "sha512": "3e2ec7de91fb3f41842a1d3c75dad943e037dc5600ae6948dcd68a56361d6404b4743bb53df96a04d01b15538814cd2764efba13c084d1c92502533bb2d72d38",
-          "sha256": "961aa0b7edef3703f57fdc1b072da55174aaf791369d64809aae085f158f0e5f",
-          "sha1": "acf65dd839e9c48f8c954dea325b549d24d7b2c1",
-          "md5": "ca1a562f80804b00e364ad4861541a13"
+          "size": 110288,
+          "sha512": "69fbbd882a352e64b398fb46b67264dca0ef598fcbdd0d58d714594e082d2d3a8342377605d1fd0f0f64332e950c2011aeb844f13eb9a2d2201ebad7f2a7be02",
+          "sha256": "9dcf34f2c8d256b629f27fcb19186ff3f50c53d9dd9a6ff9d8e7d9f3ced11cab",
+          "sha1": "da50c306044ea0ec8edd6ddb65a412b143366770",
+          "md5": "44e2ab0ebde98c1cdad9860ca994993b"
         }
       ]
     },
@@ -60,6 +60,13 @@
           "module": "kotlin-stdlib",
           "version": {
             "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
           }
         },
         {
@@ -103,11 +110,11 @@
         {
           "name": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
           "url": "waltid-cose-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 109164,
-          "sha512": "3e2ec7de91fb3f41842a1d3c75dad943e037dc5600ae6948dcd68a56361d6404b4743bb53df96a04d01b15538814cd2764efba13c084d1c92502533bb2d72d38",
-          "sha256": "961aa0b7edef3703f57fdc1b072da55174aaf791369d64809aae085f158f0e5f",
-          "sha1": "acf65dd839e9c48f8c954dea325b549d24d7b2c1",
-          "md5": "ca1a562f80804b00e364ad4861541a13"
+          "size": 110288,
+          "sha512": "69fbbd882a352e64b398fb46b67264dca0ef598fcbdd0d58d714594e082d2d3a8342377605d1fd0f0f64332e950c2011aeb844f13eb9a2d2201ebad7f2a7be02",
+          "sha256": "9dcf34f2c8d256b629f27fcb19186ff3f50c53d9dd9a6ff9d8e7d9f3ced11cab",
+          "sha1": "da50c306044ea0ec8edd6ddb65a412b143366770",
+          "md5": "44e2ab0ebde98c1cdad9860ca994993b"
         }
       ]
     },
@@ -126,11 +133,11 @@
         {
           "name": "waltid-cose-jvm-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-cose-jvm-1.0.0-SNAPSHOT-sources.jar",
-          "size": 10998,
-          "sha512": "a6f49c30b3716ee09e51c627ac9ada99e2fbf4e2101fa2436406e8220272ddacade78204003cc7f034134d2e96e68c207f49d206d835000a50459abdf489c021",
-          "sha256": "387b323c5267b3b77988067e53f1d25dd16cbbc3d2bc1668e41ae16b05ebefb4",
-          "sha1": "50def13982504f5ac134047d1362641dca8184ea",
-          "md5": "0db79373423c90600906436e451eb7f0"
+          "size": 11276,
+          "sha512": "69fd8740da6dbd418095ddc8f67bdc315ff48bb75630561151613920ae4f5a9209e7a39af207351fd9ee0e6ed7122aa2f03dde4c5719fd10de0f9a6c9a7ed76b",
+          "sha256": "1cf2f3de48cce77f7ea04a373873f43a6d9fe1aa325ca21d2732c7a45b87943c",
+          "sha1": "8c7efc19dfc8969337b19e8228b1189f10c31d48",
+          "md5": "ce5c42c4dce5b486b028e86aef5a7442"
         }
       ]
     }

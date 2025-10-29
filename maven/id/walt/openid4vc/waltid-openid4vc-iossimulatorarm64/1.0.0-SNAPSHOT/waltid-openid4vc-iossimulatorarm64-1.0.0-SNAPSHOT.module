@@ -159,10 +159,10 @@
           "name": "waltid-openid4vc-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-openid4vc-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
           "size": 771295,
-          "sha512": "c9f0d242b9a8cbc5afaa9b70fca0914c967e065f5502bfc5e32eae73b4277da645b0a819d299788a17a0bd425fde2a0a7beacedf1cad4b02a07ad9acfa58826d",
-          "sha256": "388e5baa7a935c9c9f004d02955d934683bba58a180f093918fea8856a538557",
-          "sha1": "f6d0f8dee716da0d543b42899e11feedd578e7bf",
-          "md5": "bf0875799c22180370b141a2221c6bdd"
+          "sha512": "a63c62f67240d0f06cd915e78036e356cc6dac75d6e31d352de249d1e80a9fe9bec0da38bf9a6bc7b668b2ce3c307aed5b8ee6e5f9542994f4d2cab7a712427c",
+          "sha256": "09f0ac532807402b9fbb345a8d992ec8aaf2ae6acdd991fda4460346ef0ede17",
+          "sha1": "9a92efad81abc1ca5fcf973d8a62da993a081fb4",
+          "md5": "7c42b21b0f3d93d1ab38ba76f8337fd2"
         }
       ]
     },

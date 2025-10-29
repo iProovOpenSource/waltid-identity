@@ -158,11 +158,11 @@
         {
           "name": "waltid-openid4vc-iosArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-openid4vc-iosarm64-1.0.0-SNAPSHOT.klib",
-          "size": 771229,
-          "sha512": "2c40cfde44e55580001ca835dcef532295514d164e96471d74ff4d4fc7a97cd72be5dcb00ca35d5b734b00272c5495df96acb34f669fe69f385aaddfdfacf213",
-          "sha256": "03ec1bac6bdfa807b2ed51ff066eb3a5d1c7101e2b24aaa81e3ab797d1c741c8",
-          "sha1": "d53e3afa0f46da7473f0ee13aec87457a77bcb07",
-          "md5": "260d82358c414eee6a61ead0c7f1ac79"
+          "size": 771230,
+          "sha512": "d43f768886f148d8a68fec2238c1f67b21c8dcf8a736fcb761d755666696dc9e71ca2ff82dd78f4e65ce1157c8368b185e74cf20ef118c4543cdc55e4f7e5390",
+          "sha256": "4a26dd22e59ca1fa564c3a9f5aad34dc6e726cde487e566cb597a96ec4257c54",
+          "sha1": "7fef3fbf81466127c9a3144d69bc33df1cb7850c",
+          "md5": "50ec44d54ad9e0d09f51a2d26cc8d4bb"
         }
       ]
     },

@@ -44,11 +44,11 @@
         {
           "name": "waltid-crypto-js-1.0.0-SNAPSHOT.klib",
           "url": "waltid-crypto-js-1.0.0-SNAPSHOT.klib",
-          "size": 430226,
-          "sha512": "f98dbf2eee2facc3ad51a105a05e0a5e3e00e68d9d167e752cc1f68c71477af544a39887921fd442c89ff3e87510effd47fc7cd4e9659c59f77c75e37d870815",
-          "sha256": "7332f1044d7f941f2efc080da9e37cb2cdbefd0e5d6c92b7c780d6d727c6b291",
-          "sha1": "c0007200275456c81ab14bc1d62ae2f68d81e9f8",
-          "md5": "d85b17c77139e1c8d129301aee054fe2"
+          "size": 431724,
+          "sha512": "6ad9ed746734477c0b7c141c4eef93b2d8fe4b4d944977eb4a889b5945fa373bce77609b354d6a1778202911e7822e30e655b5307e9b4e22713ce6a6ef6e2b4a",
+          "sha256": "a3ac35eb4c9602b5a25e55e7e2830144e3a5dfca3e7661f88c87e6a5045f668a",
+          "sha1": "cba31aa7c5e89399a2b5569d483fcd970d5e08da",
+          "md5": "c662da8c4e1dbb6b2f609636727371d8"
         }
       ]
     },
@@ -209,11 +209,11 @@
         {
           "name": "waltid-crypto-js-1.0.0-SNAPSHOT.klib",
           "url": "waltid-crypto-js-1.0.0-SNAPSHOT.klib",
-          "size": 430226,
-          "sha512": "f98dbf2eee2facc3ad51a105a05e0a5e3e00e68d9d167e752cc1f68c71477af544a39887921fd442c89ff3e87510effd47fc7cd4e9659c59f77c75e37d870815",
-          "sha256": "7332f1044d7f941f2efc080da9e37cb2cdbefd0e5d6c92b7c780d6d727c6b291",
-          "sha1": "c0007200275456c81ab14bc1d62ae2f68d81e9f8",
-          "md5": "d85b17c77139e1c8d129301aee054fe2"
+          "size": 431724,
+          "sha512": "6ad9ed746734477c0b7c141c4eef93b2d8fe4b4d944977eb4a889b5945fa373bce77609b354d6a1778202911e7822e30e655b5307e9b4e22713ce6a6ef6e2b4a",
+          "sha256": "a3ac35eb4c9602b5a25e55e7e2830144e3a5dfca3e7661f88c87e6a5045f668a",
+          "sha1": "cba31aa7c5e89399a2b5569d483fcd970d5e08da",
+          "md5": "c662da8c4e1dbb6b2f609636727371d8"
         }
       ]
     },
@@ -232,11 +232,11 @@
         {
           "name": "waltid-crypto-js-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-crypto-js-1.0.0-SNAPSHOT-sources.jar",
-          "size": 68869,
-          "sha512": "8dffae900542b09143f2becd1726fc48614c0fcbab2230b55bb3059e2a3efe6be0692ebfc0dbb958eae0f200f633aa4f1820e9600af86069dbba484de532bbd1",
-          "sha256": "771f79ab374514403c1f62546c1441002aa2ba1d9bdb816b7e5fcaa2be0be6a1",
-          "sha1": "ad6f8fd65e94f6709327b5f013cf5d91fc096a5d",
-          "md5": "0d63e63d3da74c50ee4f1884661023eb"
+          "size": 69089,
+          "sha512": "d1789993c3fc2d9ac6dfe7667323c4d78753b59e8f64ad6766b0c781d45e88eb006bd4e02a3030a9f1a2ca8536cfc12d1d942b87719f10bdd9412c87edc39f86",
+          "sha256": "4150af2590ee80d8e1b67b2cd787d07637da645fea54257cbff701bd04efb620",
+          "sha1": "d2738be2da7982a621c638aafcaada8abab9db90",
+          "md5": "afaeabc09aeab2c7b8564472b38f5caf"
         }
       ]
     }

@@ -166,11 +166,11 @@
         {
           "name": "waltid-crypto-iosArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-crypto-iosarm64-1.0.0-SNAPSHOT.klib",
-          "size": 329884,
-          "sha512": "ef115d954f5bec1ccc33327734b7cd4ef563e31fee0eb9511f30e7db2970536a0ed5cdf12160f8585019f8819678a38e07d7250288e01f35e2dd8798fe7c60aa",
-          "sha256": "81d89d8487f26752868dadbe0917f53e43397ae56b8b89551d3c89f4526bbed0",
-          "sha1": "03eb33268b1494ac87bb7539213b585122751e1c",
-          "md5": "9600be7c4c88deec63a656629b136515"
+          "size": 331333,
+          "sha512": "d79f05c91ddd82b7d19de924d4a3c90e47a34eb648d818348f8d31d8b7a7f07b89bb4bb151eabe77e4f452e56ca7f19e0a70b54cd78e41dbf79b21fa3fad0c85",
+          "sha256": "d0b441084180a4b88ee6795235cd08a294b8fb14872b0a81f8812311fec91405",
+          "sha1": "cdb2b26f6cf6b9b9bd6419d851d8bbb1bbac0a02",
+          "md5": "5c773dbe8d4d688be5729a312a897e6d"
         }
       ]
     },
@@ -189,11 +189,11 @@
         {
           "name": "waltid-crypto-iosarm64-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-crypto-iosarm64-1.0.0-SNAPSHOT-sources.jar",
-          "size": 53971,
-          "sha512": "490be0bb2f52851eb2b30fe69c93dfb4a9bc216b545e520271ceb960da68d19c8a4504424e99b0ddcf8bd6b31bd8a7fad1376c982b4027d1dd93e1bc42be0542",
-          "sha256": "4bbb78d8ada40534ffb4c8fc85a0907f42739669d35c884bdc9aec8d10be71d6",
-          "sha1": "ad0b6909d35fa4464c4b879114c91cb197e75fa3",
-          "md5": "319f79798a18a6433bb518ce10c5ce34"
+          "size": 54191,
+          "sha512": "1ef0f04e3d1c19a7dbfe28b9d93761e00e7bd01522af5553540c725a7e72c4ecae428ad5da55fb0d2857ef35bf7ad9c76f5bac73a4fb6f89cb9d9472c79d4eaf",
+          "sha256": "0543f1e81a6bf56778800a37d539d0a73284688b4b4b54801ebc22f227a19f54",
+          "sha1": "387498867053ed7e846712e6d0f1dcc671762868",
+          "md5": "359eae6d7a8ee399d77d7ffa340fd3f2"
         }
       ]
     },

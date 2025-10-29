@@ -3,37 +3,37 @@
   <groupId>id.walt.crypto</groupId>
   <artifactId>waltid-cose-iossimulatorarm64</artifactId>
   <versioning>
-    <lastUpdated>20251015154135</lastUpdated>
+    <lastUpdated>20251029103948</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>metadata</classifier>
+        <classifier>sources</classifier>
         <extension>jar</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015154135</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015154135</updated>
+        <updated>20251029103948</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015154135</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015154135</updated>
+        <updated>20251029103948</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
         <value>1.0.0-SNAPSHOT</value>
-        <updated>20251015154135</updated>
+        <updated>20251029103948</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>metadata</classifier>
+        <extension>jar</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20251029103948</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-SNAPSHOT</value>
+        <updated>20251029103948</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

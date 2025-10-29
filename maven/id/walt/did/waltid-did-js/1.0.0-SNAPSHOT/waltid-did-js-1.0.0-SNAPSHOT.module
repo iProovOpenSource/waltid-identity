@@ -51,11 +51,11 @@
         {
           "name": "waltid-did-js-1.0.0-SNAPSHOT.klib",
           "url": "waltid-did-js-1.0.0-SNAPSHOT.klib",
-          "size": 352738,
-          "sha512": "70445fb28bcc929f3a63bb62fc3f958bab6a0e6a68b7ed273b7b56893143698249ee28eaa8745ff75d5c1338b00c8a260dd6b8e35b5eae9638a96ad7b1efc243",
-          "sha256": "efd0cc54ce19e439227ab9d4d8b97b5daff34156fad2600914a24d3947cec9e3",
-          "sha1": "4600fd804b3d777a2fe5b51c46c6bbc705696932",
-          "md5": "c89f0568b9bb4ca30838fcfd23f60b04"
+          "size": 352745,
+          "sha512": "49a1f3848d4f594f247285537b5ef0f486679cbd3efcbc8d01f4de0c832b03c3cf8ca5b0ddf68f47efecba007753f29dbb1f038ad381df8b9f3ada3aee7389f3",
+          "sha256": "e0f98979b77d131c22e8b0ee66ce41ec1356ccd001b0978f8231055da7e5b3d8",
+          "sha1": "2c8998fa138dcca595e40914d83d3afdfcf117b0",
+          "md5": "7e6bce62864607324f2229e087bf8774"
         }
       ]
     },
@@ -207,11 +207,11 @@
         {
           "name": "waltid-did-js-1.0.0-SNAPSHOT.klib",
           "url": "waltid-did-js-1.0.0-SNAPSHOT.klib",
-          "size": 352738,
-          "sha512": "70445fb28bcc929f3a63bb62fc3f958bab6a0e6a68b7ed273b7b56893143698249ee28eaa8745ff75d5c1338b00c8a260dd6b8e35b5eae9638a96ad7b1efc243",
-          "sha256": "efd0cc54ce19e439227ab9d4d8b97b5daff34156fad2600914a24d3947cec9e3",
-          "sha1": "4600fd804b3d777a2fe5b51c46c6bbc705696932",
-          "md5": "c89f0568b9bb4ca30838fcfd23f60b04"
+          "size": 352745,
+          "sha512": "49a1f3848d4f594f247285537b5ef0f486679cbd3efcbc8d01f4de0c832b03c3cf8ca5b0ddf68f47efecba007753f29dbb1f038ad381df8b9f3ada3aee7389f3",
+          "sha256": "e0f98979b77d131c22e8b0ee66ce41ec1356ccd001b0978f8231055da7e5b3d8",
+          "sha1": "2c8998fa138dcca595e40914d83d3afdfcf117b0",
+          "md5": "7e6bce62864607324f2229e087bf8774"
         }
       ]
     },
@@ -230,11 +230,11 @@
         {
           "name": "waltid-did-js-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-did-js-1.0.0-SNAPSHOT-sources.jar",
-          "size": 64380,
-          "sha512": "f2ec891a6428b55e07245285f4cd48e088a10c32e5a409adbb3f9fc21783838108b9087b951013a12fc4ee9c5da62ef51c5ad703907b88c3b2dea3b6e2eb13f8",
-          "sha256": "add14e1faee188d8511d701469dfb102ce09a5d5664fcc072e1356ec6c9fca7a",
-          "sha1": "9eef96719e92a06daa4cd40b6390838420b40191",
-          "md5": "5223a44436c7817b394ffc27d18c9822"
+          "size": 64376,
+          "sha512": "ac4bf26ebc454782a579d5f04c7c24a2a9552ce28a459afb71bd32333916d137b283115ac1b0c21e2ad12722e905c0a6ee3ee83a7eb44060d39b77f2e2a36976",
+          "sha256": "3bef40b8d42bac6099b11cb1ce015d98012ee08b2577ff794e7eb6e0cbc13533",
+          "sha1": "181a8ac1ef99f14fd73cff3b57b60bd147a6144d",
+          "md5": "5554b5c55c252c820164c3ebce62368a"
         }
       ]
     }

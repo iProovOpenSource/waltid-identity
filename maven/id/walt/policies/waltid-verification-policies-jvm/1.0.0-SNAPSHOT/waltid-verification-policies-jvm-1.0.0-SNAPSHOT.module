@@ -37,11 +37,11 @@
         {
           "name": "waltid-verification-policies-jvm-1.0.0-SNAPSHOT.jar",
           "url": "waltid-verification-policies-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 655808,
-          "sha512": "fb0dab23e966d58e6f36a93f75ff33ce762cc1f0ef10ef0f8924dbd81b4b2b68fab0c1f19dd211a2cd84f6e2a8d25de125afe51bf6c061fad6c123aca18c551e",
-          "sha256": "c4103b1c8d81bef4d79bd27e0e8cd97db8526021b5b9b36cdbc07861325125cc",
-          "sha1": "7daaac54e2eb8fe8858ee73e9a4a0188f481e6ca",
-          "md5": "e77493f79ba8df10a77e5125570342f5"
+          "size": 658157,
+          "sha512": "8faa6f522268397d11f74638a1e01a59c298a3e4ecfe6328a6b7ee8e29c55846ef7ac75b6b691557a8328aed7be483581e66265fc6aa5a510f4d32760fc6d06e",
+          "sha256": "883e7425255ed66e18a4c60e32dd876e163c1c7dfc73677046ad1ff3693aa5bb",
+          "sha1": "bc55ac9ce52b5b8ab2ffe0ec8d743388440f1832",
+          "md5": "a79480b6391a4ca3e50615eed1f73a7e"
         }
       ]
     },
@@ -107,6 +107,13 @@
         {
           "group": "id.walt.sdjwt",
           "module": "waltid-sdjwt",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "id.walt.mdoc-credentials",
+          "module": "waltid-mdoc-credentials",
           "version": {
             "requires": "1.0.0-SNAPSHOT"
           }
@@ -193,11 +200,11 @@
         {
           "name": "waltid-verification-policies-jvm-1.0.0-SNAPSHOT.jar",
           "url": "waltid-verification-policies-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 655808,
-          "sha512": "fb0dab23e966d58e6f36a93f75ff33ce762cc1f0ef10ef0f8924dbd81b4b2b68fab0c1f19dd211a2cd84f6e2a8d25de125afe51bf6c061fad6c123aca18c551e",
-          "sha256": "c4103b1c8d81bef4d79bd27e0e8cd97db8526021b5b9b36cdbc07861325125cc",
-          "sha1": "7daaac54e2eb8fe8858ee73e9a4a0188f481e6ca",
-          "md5": "e77493f79ba8df10a77e5125570342f5"
+          "size": 658157,
+          "sha512": "8faa6f522268397d11f74638a1e01a59c298a3e4ecfe6328a6b7ee8e29c55846ef7ac75b6b691557a8328aed7be483581e66265fc6aa5a510f4d32760fc6d06e",
+          "sha256": "883e7425255ed66e18a4c60e32dd876e163c1c7dfc73677046ad1ff3693aa5bb",
+          "sha1": "bc55ac9ce52b5b8ab2ffe0ec8d743388440f1832",
+          "md5": "a79480b6391a4ca3e50615eed1f73a7e"
         }
       ]
     },
@@ -216,11 +223,11 @@
         {
           "name": "waltid-verification-policies-jvm-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-verification-policies-jvm-1.0.0-SNAPSHOT-sources.jar",
-          "size": 51113,
-          "sha512": "9499b02ff35ee7865da6ba59c81c80a650270d48408822d979bb34edae6a899ddadd4c78d3ade52714c59d72810025c978147ac5c1849f72c54452eea6fed01c",
-          "sha256": "fe59188bc4c4717c2b6d441962a80f64435d545375532d758f014f8e0d391759",
-          "sha1": "49806f38e61ffa0dde6a7574654b8769fdf87b5c",
-          "md5": "561d92a3321ffc1a6b289f0cabbb29ed"
+          "size": 51725,
+          "sha512": "740b993dc8ea88f5a304a565ec3946528d8b1e423c330c994a94e9b7981ee50203269a969cc70c2ab5f0a8fbb1d0c6dc8cd1abd2ba45171e77a0c45c347868c2",
+          "sha256": "9848e1ed80b8dfc83f804e2e74a507d39201d94e23d32f73967d6fb437bc9b4f",
+          "sha1": "2925b76fa5c66203d25b8002206e7b1812cec7cb",
+          "md5": "46e8e89d883a56872c21524c2996bd9c"
         }
       ]
     }

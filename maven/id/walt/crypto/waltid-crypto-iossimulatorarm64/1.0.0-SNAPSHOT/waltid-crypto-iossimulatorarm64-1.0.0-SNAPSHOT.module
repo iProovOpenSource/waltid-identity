@@ -166,11 +166,11 @@
         {
           "name": "waltid-crypto-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
-          "size": 329949,
-          "sha512": "cb1c2c5aaf1e53909d27e2ec529815145d3d1667b06579569ffbf1571cd1a238a7d2de8fc5660a2d5b8b7f59b72b7171c99e89a0ad48165f949e7d84d9da9b1a",
-          "sha256": "0c17d9171fc4fac3e961e1f23f7ac04e3a4ccf0d54c9f00977f7ed172e064fad",
-          "sha1": "584bca3330d844d1efd5f25c97832900aab9ec13",
-          "md5": "02c5d4285901588ab10a819576aa745e"
+          "size": 331398,
+          "sha512": "b7c5b56c13ca745c7be789d71ef72f041bcdd8eb04412e2e5bf2ddb6e8ba637f5cf3535efa0383fef966c97eb91070ac62986f6fd1b69e49bdf1f4dc07920dec",
+          "sha256": "a7cf8886068383666c542ac94a8e7a564eae9c562cf1a47580328ed00c619266",
+          "sha1": "05c6dec60a041cbe36b1fa474e158e4399f348e8",
+          "md5": "b989e675c4a75d627c1f1755a1947128"
         }
       ]
     },
@@ -189,11 +189,11 @@
         {
           "name": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-crypto-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
-          "size": 53971,
-          "sha512": "490be0bb2f52851eb2b30fe69c93dfb4a9bc216b545e520271ceb960da68d19c8a4504424e99b0ddcf8bd6b31bd8a7fad1376c982b4027d1dd93e1bc42be0542",
-          "sha256": "4bbb78d8ada40534ffb4c8fc85a0907f42739669d35c884bdc9aec8d10be71d6",
-          "sha1": "ad0b6909d35fa4464c4b879114c91cb197e75fa3",
-          "md5": "319f79798a18a6433bb518ce10c5ce34"
+          "size": 54191,
+          "sha512": "1ef0f04e3d1c19a7dbfe28b9d93761e00e7bd01522af5553540c725a7e72c4ecae428ad5da55fb0d2857ef35bf7ad9c76f5bac73a4fb6f89cb9d9472c79d4eaf",
+          "sha256": "0543f1e81a6bf56778800a37d539d0a73284688b4b4b54801ebc22f227a19f54",
+          "sha1": "387498867053ed7e846712e6d0f1dcc671762868",
+          "md5": "359eae6d7a8ee399d77d7ffa340fd3f2"
         }
       ]
     },

@@ -41,6 +41,13 @@
           }
         },
         {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlinx",
           "module": "kotlinx-serialization-json",
           "version": {
@@ -81,11 +88,11 @@
         {
           "name": "waltid-cose-iosSimulatorArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT.klib",
-          "size": 87425,
-          "sha512": "28ed625693956c539dfb768cd160bd08aaac0ef059eb6396c4b001c0ca4a023db13503eb94802a08a533ef2c0ae06012c1c43c323391fcaf5b5fb4b150419196",
-          "sha256": "17ebba9269573fcc4245e7f76124768e8cd7c602e6370a58341973f8fd552224",
-          "sha1": "800ab5f11fd41e1e1e309c5e3fc27849352b042c",
-          "md5": "7b7c2e7d928a1588c2d0726bd40259b9"
+          "size": 89328,
+          "sha512": "716926c6175d360598bccb13ded086eedc749a2030aaa60abc629a2aa28c8bf48248a2de1696ffbfcbf20d62920b42cc4d4cdb136f53f6a33eebbeacf5092b61",
+          "sha256": "a13637b7c97ea0d363bfcdcb07e5e2d5cb59ca4518701dafbd70867e6567084e",
+          "sha1": "dfec3b5b6435bbba502f5f13abd30e24fad7dbb2",
+          "md5": "787d6807cfa5b2d53062055d70489d5c"
         }
       ]
     },
@@ -104,11 +111,11 @@
         {
           "name": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-cose-iossimulatorarm64-1.0.0-SNAPSHOT-sources.jar",
-          "size": 10998,
-          "sha512": "a6f49c30b3716ee09e51c627ac9ada99e2fbf4e2101fa2436406e8220272ddacade78204003cc7f034134d2e96e68c207f49d206d835000a50459abdf489c021",
-          "sha256": "387b323c5267b3b77988067e53f1d25dd16cbbc3d2bc1668e41ae16b05ebefb4",
-          "sha1": "50def13982504f5ac134047d1362641dca8184ea",
-          "md5": "0db79373423c90600906436e451eb7f0"
+          "size": 11276,
+          "sha512": "69fd8740da6dbd418095ddc8f67bdc315ff48bb75630561151613920ae4f5a9209e7a39af207351fd9ee0e6ed7122aa2f03dde4c5719fd10de0f9a6c9a7ed76b",
+          "sha256": "1cf2f3de48cce77f7ea04a373873f43a6d9fe1aa325ca21d2732c7a45b87943c",
+          "sha1": "8c7efc19dfc8969337b19e8228b1189f10c31d48",
+          "md5": "ce5c42c4dce5b486b028e86aef5a7442"
         }
       ]
     },
@@ -135,6 +142,13 @@
           "module": "waltid-target-ios",
           "version": {
             "requires": "1.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.github.oshai",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "7.0.5"
           }
         },
         {

@@ -37,11 +37,11 @@
         {
           "name": "waltid-crypto-jvm-1.0.0-SNAPSHOT.jar",
           "url": "waltid-crypto-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 851202,
-          "sha512": "8c2c8e05afa85bda9b21171887be4973e28f7362f697a21df2a1fb5f8fbc73f221f3c2fa56a2b01c6376a5cfac497142d05a94903747de53c4a79b6605657d4c",
-          "sha256": "3e924636f0aef9547ad9176f001f034784a3558d74618cfb2af16a0e8e74ebcc",
-          "sha1": "2ee2fa26b99b28f83d4a9106248475cbf658e3d8",
-          "md5": "42ccaf20f99b55f43a8d32b3bb9d06c5"
+          "size": 857707,
+          "sha512": "99eb902a1e110d3fe1d91785975bfdbc750b8c8b18aa9b992ac0d510e8f45b83894bcd03660d40fa683202b0146670512f230ffc1972a1fa88f246f983ac967d",
+          "sha256": "191309f92253f96237306a0047f814206cf6a6d62bba9cd00b28f5edd8b8c10a",
+          "sha1": "9a096e7258a5016828a1e64a4d7ac319e6226b9d",
+          "md5": "23364799df106bc529fac0f256ce41c3"
         }
       ]
     },
@@ -237,11 +237,11 @@
         {
           "name": "waltid-crypto-jvm-1.0.0-SNAPSHOT.jar",
           "url": "waltid-crypto-jvm-1.0.0-SNAPSHOT.jar",
-          "size": 851202,
-          "sha512": "8c2c8e05afa85bda9b21171887be4973e28f7362f697a21df2a1fb5f8fbc73f221f3c2fa56a2b01c6376a5cfac497142d05a94903747de53c4a79b6605657d4c",
-          "sha256": "3e924636f0aef9547ad9176f001f034784a3558d74618cfb2af16a0e8e74ebcc",
-          "sha1": "2ee2fa26b99b28f83d4a9106248475cbf658e3d8",
-          "md5": "42ccaf20f99b55f43a8d32b3bb9d06c5"
+          "size": 857707,
+          "sha512": "99eb902a1e110d3fe1d91785975bfdbc750b8c8b18aa9b992ac0d510e8f45b83894bcd03660d40fa683202b0146670512f230ffc1972a1fa88f246f983ac967d",
+          "sha256": "191309f92253f96237306a0047f814206cf6a6d62bba9cd00b28f5edd8b8c10a",
+          "sha1": "9a096e7258a5016828a1e64a4d7ac319e6226b9d",
+          "md5": "23364799df106bc529fac0f256ce41c3"
         }
       ]
     },
@@ -260,11 +260,11 @@
         {
           "name": "waltid-crypto-jvm-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-crypto-jvm-1.0.0-SNAPSHOT-sources.jar",
-          "size": 62934,
-          "sha512": "d0f2727a24a4132e67eff90c6645d3aca5baa00b2548789bddc52a021f793ecc9acf6c2750eed3d86ec6cb496e92611ef4518b123425efc8f30fe13f4ba47112",
-          "sha256": "055d8e0c8ae17c693f4dfacd078140a601a3cba3bc93fcf850a5b4ea516521da",
-          "sha1": "ceacdb51ed053b8b78ed4c4e2378ee3cb05ac87f",
-          "md5": "4d3864a5bb79bddd1f9c2378f9cd15e9"
+          "size": 63152,
+          "sha512": "09d59489bcee17b4ff4c66527f47b36dccd65afa2f5a8220475f68f07baa9108a4078754bdedbe1c30a14a0284f380ece72e6ed69b5b04bf90a079a79ed5eae2",
+          "sha256": "8f24e79c93211fdba9e3fb3e2809c0d8293a833c95237230e8a8b1a9747842ec",
+          "sha1": "43507ae9b99f0da5bafb047d7b4879cd4a03806f",
+          "md5": "c573db24b365c22bf3af2d290bf16f6f"
         }
       ]
     }

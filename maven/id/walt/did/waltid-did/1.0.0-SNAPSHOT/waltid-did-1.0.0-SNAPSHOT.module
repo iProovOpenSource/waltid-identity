@@ -140,11 +140,11 @@
         {
           "name": "waltid-did-1.0.0-SNAPSHOT.jar",
           "url": "waltid-did-1.0.0-SNAPSHOT.jar",
-          "size": 73109,
-          "sha512": "b2277beacb61aa31c297164b92835b0f648568019d0e88200d8b5f1aa6aaf865341c2c558056cbd2476e1cb76bff0a06594729a799b8ec9506863b30748fd1af",
-          "sha256": "911829a20b6a747ee51ca5c925781f1c2b60d7b675f8af93a19d0088f488f866",
-          "sha1": "41336db2de8ecd7fdb47ee9c096aabb21d4b384a",
-          "md5": "1da4f99802debb16ca8ed926f5d4a78c"
+          "size": 73112,
+          "sha512": "2a2c09fd0de7728585782f480ed1a7c325d0453fbb68d792969d71f09a725a33ab5355df131c2f1828d7ba2d1a8d3530cdca2b61266570d484bd59338d4f4d8e",
+          "sha256": "7b31f4adf998c15a4806612b454e5e90254379fdfe1b4bd3e620dfa456df47d7",
+          "sha1": "232d477674433f3d7a6d453395d01ee19c7e1670",
+          "md5": "91b9ffb5a9f05487988befa2e2940ab3"
         }
       ]
     },
@@ -162,11 +162,11 @@
         {
           "name": "waltid-did-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-did-1.0.0-SNAPSHOT-sources.jar",
-          "size": 63372,
-          "sha512": "77e08928f5a25bda8d92c7a9fcc4f7325f5bba8427af1d78828b73798034bd6aba679852d0be893257117892a58dbf111092b59e09c2f674b6086ef3f0e02854",
-          "sha256": "69875719b17bd78bcdf7cb66f957ed8a4e248b98584b3359d365f0ace923fb78",
-          "sha1": "12fe1d4afdd0b0393f4d14ada714d6f786bec59f",
-          "md5": "8029f9185a40760b7f39c9c2a2c0e792"
+          "size": 63368,
+          "sha512": "3148e64ed40c5dd07efa787a92ba8ebe30cc92288cd863b5ec81127e34c5982245b49024fb3b20679e7f96475ba20ab41cca0222f43dc4d5cd2e2fcc6a3db491",
+          "sha256": "a99b68edeafc424d20caf9b96688fa2e03729707c084d69e2a03691383daf3da",
+          "sha1": "f323f2a79cae49667756883c00ac18a866b6df91",
+          "md5": "fde3aa04f1d80162f60f9c61108d8cf6"
         }
       ]
     },

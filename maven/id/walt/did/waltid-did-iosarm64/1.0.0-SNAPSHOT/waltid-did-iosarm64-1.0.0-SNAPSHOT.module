@@ -143,11 +143,11 @@
         {
           "name": "waltid-did-iosArm64Main-1.0.0-SNAPSHOT.klib",
           "url": "waltid-did-iosarm64-1.0.0-SNAPSHOT.klib",
-          "size": 338468,
-          "sha512": "71d35486e302e66f827f3c1ce77a00e3a887f0192a237eeaf3ea7eb294cf309912cfcc1533510e92ba739be4c61247e8f737b5965a38255beb80909c463377bc",
-          "sha256": "d7f0d8762f8ae0347830c345981204c97a4bfb2c3249494a336e2bf4174a6dd8",
-          "sha1": "a7290ace583a1c436627cc63a4d959942514129c",
-          "md5": "c5fb442a0b6d2c5c26ad5206a34f822b"
+          "size": 338471,
+          "sha512": "3014c010a0e3a7eb0777e58c41e750dfdd9f2d10213d410221a72020e20456860b8a2f78086ea8c4b21ad2038d336bfabaa3ecdce6656d8c3ff02bc4231c288a",
+          "sha256": "4e4def54e34c897ba979ca5d13b78dd36fa75a107eada1ae77610fa4e745bd9e",
+          "sha1": "17a51ea680202c6054e1c7e12cacd271ce513e77",
+          "md5": "45cf18f968745a2d4c0a9fbfc238e3cc"
         }
       ]
     },
@@ -166,11 +166,11 @@
         {
           "name": "waltid-did-iosarm64-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-did-iosarm64-1.0.0-SNAPSHOT-sources.jar",
-          "size": 63372,
-          "sha512": "df91dcd36dc58a2b665ba77908d2a9d3190a9e8e6d5e761c86afbf62085b8b4fa1f78562d6dd1dda12fe61d0af98a61676c3c36285c1f8f4ba8d26308e2b1641",
-          "sha256": "165266166dafef1aa16c76c47fc68ed273c5a78764863cdc14f7a288c7f75260",
-          "sha1": "5baaa9ea94c15d1b12bdefb78d09a13cd8cfa7b6",
-          "md5": "95d582ace56f4ba917b2d53ff471c6ab"
+          "size": 63368,
+          "sha512": "f2dd913a61340ccd60e42727d014ad05d406c8e04fc98348c59544571722a33c18206d623a9802f466627327704993bcf657e398b8fe97528a4db1233569f210",
+          "sha256": "4881f34c8ca5a96163a54daa2f7d8bdc21e29c0827a61530a947e8ea69638555",
+          "sha1": "3107072dceba063de7e79c33d4a5b224a8f832bb",
+          "md5": "e1e601f8fff5a10c02b513e912e46930"
         }
       ]
     },

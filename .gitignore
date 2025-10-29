@@ -48,6 +48,7 @@ secret*
 **/data
 !.github/**/data/
 **/*.db
+**/*.log
 /kotlin-js-store/
 .idea/misc.xml
 #**/bun.lockb

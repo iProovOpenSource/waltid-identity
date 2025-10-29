@@ -163,11 +163,11 @@
         {
           "name": "waltid-crypto-1.0.0-SNAPSHOT.jar",
           "url": "waltid-crypto-1.0.0-SNAPSHOT.jar",
-          "size": 41018,
-          "sha512": "40be004900c616258ca9e3e696959d058f41fdafd1d98d27a3a3a899ccd892bba717e29519d7a50e3160170a5bfad4232176fa9f1358c29fd73d581bb6e98e1f",
-          "sha256": "3c8682bc0a674234c4137aa572e9eb38018a647aea22ee7526a7191e2f641680",
-          "sha1": "bb18fd86f584a7609116745fb749e8aa85619950",
-          "md5": "dc9a0a393dc16d196c84067290e69108"
+          "size": 41181,
+          "sha512": "1ad60b4cac2803b886381b267144654eb468c59927ec031a6770e6b6b9a0f82c2746cc5f30b201526b06a44cbe95293889cd169a79ec087d26ec4cb89cf9222e",
+          "sha256": "5f1e51932f84a4b799546e44ce567322ed977a444bbccfd3eb7763f42f30c99f",
+          "sha1": "ec89e4b9903304e9158e90430402ff0a25d6e5c6",
+          "md5": "b3ac57e0f60125bdcd250d8d0d1fedf5"
         }
       ]
     },
@@ -185,11 +185,11 @@
         {
           "name": "waltid-crypto-1.0.0-SNAPSHOT-sources.jar",
           "url": "waltid-crypto-1.0.0-SNAPSHOT-sources.jar",
-          "size": 53971,
-          "sha512": "6a6218a0cfe4b6d9f7f5c00791b0edf5f1a429d2ed89d8085313b822287ae7badddf834883bfb84793bd96e44dc1c66ba92f011cd2cd1640d772df3fd8095108",
-          "sha256": "a26f2343c61eac58eac4b788c74ec94194d10ef35331daa917b43af747fbaa1b",
-          "sha1": "656c8b74d64f057884174d2d5985f24687c4ed9d",
-          "md5": "d89f5c72fa06c5206480a8c59663daa1"
+          "size": 54191,
+          "sha512": "58d854ae2c9d6efb7a987f021bf0a258eff38c48f59131b121aa86faf57c18a30d306e92e20d15f8a562df694e45bd875b53f7b27c43d1605ac8c6510ae9c0b1",
+          "sha256": "1d27dacaecee8fe83361a930ece2cd7b1f5f6489b1916fcc62f9af9566781c0f",
+          "sha1": "139b20436adeece5dbed35c2b9d0fa9158ed7bbf",
+          "md5": "8e27f0df43b7563e9e3432b72c3b904f"
         }
       ]
     },
