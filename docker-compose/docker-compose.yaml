@@ -1,5 +1,6 @@
 services:
   wallet-api:
+    platform: linux/amd64
     image: ${IMAGE_PREFIX}waltid/wallet-api:${VERSION_TAG:-latest}
     profiles:
       - services
@@ -35,6 +36,7 @@ services:
       - ./issuer-api/config:/waltid-issuer-api/config
 
   verifier-api:
+    platform: linux/amd64
     image: ${IMAGE_PREFIX}waltid/verifier-api:${VERSION_TAG:-latest}
     profiles:
       - services
@@ -87,6 +89,7 @@ services:
       PORT: $DEV_WALLET_FRONTEND_PORT
 
   web-portal:
+    platform: linux/amd64
     image: ${IMAGE_PREFIX}waltid/portal:${VERSION_TAG:-latest}
     profiles:
       - apps

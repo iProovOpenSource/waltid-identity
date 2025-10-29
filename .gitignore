@@ -63,6 +63,7 @@ secret*
 /waltid-openid4vc/root-ca-pub.pem
 
 **/.kotlin
+local.properties
 
 **/issuer-*.pem
 **/root-*.pem
