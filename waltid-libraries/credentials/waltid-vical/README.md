@@ -1,4 +1,21 @@
-# waltid-vical
+<div align="center">
+    <h1>Kotlin Multiplatform VICAL library</h1>
+    <span>by </span><a href="https://walt.id">walt.id</a>
+    <p>Parse and Verify VICAL data</p>
+    <a href="https://walt.id/community">
+        <img src="https://img.shields.io/badge/Join-The Community-blue.svg?style=flat" alt="Join community!" />
+    </a>
+    <a href="https://www.linkedin.com/company/walt-id/">
+        <img src="https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin" alt="Follow walt_id" />
+    </a>
+  
+  <h2>Status</h2>
+  <p align="center">
+    <img src="https://img.shields.io/badge/🟢%20Actively%20Maintained-success?style=for-the-badge&logo=check-circle" alt="Status: Actively Maintained" />
+    <br/>
+    <em>This project is being actively maintained by the development team at walt.id.<br />Regular updates, bug fixes, and new features are being added.</em>
+  </p>
+</div>
 
 A Kotlin/JVM library for parsing and verifying Verifier Integrated Credential Authentication
 Ledger (VICAL) data, as defined in [ISO/IEC 18013-5](https://www.iso.org/standard/69084.html).
@@ -52,7 +69,7 @@ To trust its contents, you must verify this signature.
 
 ```kotlin
 // 1. Extract the signer's certificate from the VICAL header
-val x5Chain = vical.coseSign1.unprotected.x5chain
+val x5Chain = vical.getCertificateChain()
 requireNotNull(x5Chain) { "Signer certificate chain (x5chain) not found in header." }
 val signerCertificate = x5Chain.first().rawBytes // select a certificate to verify
 
@@ -77,5 +94,17 @@ vical.vicalData.getAllAllowedIssuers().entries.forEachIndexed { idx, (certificat
 println("Allowed issuers per this VICAL: ${allowedIssuers.size}")
 ```
 
-## Licence
-This library is licensed under the Apache 2.0 License.
+## Join the community
+
+* Connect and get the latest updates: [Discord](https://discord.gg/AW8AgqJthZ) | [Newsletter](https://walt.id/newsletter) | [YouTube](https://www.youtube.com/channel/UCXfOzrv3PIvmur_CmwwmdLA) | [LinkedIn](https://www.linkedin.com/company/walt-id/)
+* Get help, request features and report bugs: [GitHub Issues](https://github.com/walt-id/waltid-identity/issues)
+* Find more indepth documentation on our [docs site](https://docs.walt.id)
+
+
+## License
+
+Licensed under the [Apache License, Version 2.0](https://github.com/walt-id/waltid-identity/blob/main/LICENSE)
+
+<div align="center">
+<img src="../../../assets/walt-banner.png" alt="walt.id banner" />
+</div>

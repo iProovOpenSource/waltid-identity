@@ -1,10 +1,33 @@
-# waltid-mdoc-credentials2 Library
+<div align="center">
+ <h1>Kotlin Multiplatform mdoc2 library</h1>
+ <span>by </span><a href="https://walt.id">walt.id</a>
+ <p>Create credentials in <b>mdoc format</b> according to <b>ISO/IEC 18013-5:2021</b> and <b>ISO/IEC 23220-2:2023</b> standards</p>
 
-waltid-mdocs is a Kotlin Multiplatform library for creating, parsing, and verifying mobile
-documents (mdocs) that conform to the respective standards (e.g. ISO/IEC 18013, 23220).
-It provides the core cryptographic and data structure logic required to build
-applications, such as digital wallets and verifier services, that are compliant with the mdoc
-standard.
+<a href="https://walt.id/community">
+<img src="https://img.shields.io/badge/Join-The Community-blue.svg?style=flat" alt="Join community!" />
+</a>
+<a href="https://www.linkedin.com/company/walt-id/">
+<img src="https://img.shields.io/badge/-LinkedIn-0072b1?style=flat&logo=linkedin" alt="Follow walt_id" />
+</a>
+  
+  <h2>Status</h2>
+  <p align="center">
+    <img src="https://img.shields.io/badge/🟢%20Actively%20Maintained-success?style=for-the-badge&logo=check-circle" alt="Status: Actively Maintained" />
+    <br/>
+    <em>This project is being actively maintained by the development team at walt.id.<br />Regular updates, bug fixes, and new features are being added.</em>
+  </p>
+</div>
+
+## Getting Started
+
+## What is the mdoc library
+This library implements the mdoc specification: [ISO/IEC 18013-5:2021](https://www.iso.org/standard/69084.html), Personal identification -- ISO-compliant driving licence -- Part 5: Mobile driving licence (mDL) application.
+
+This library is a successor to the [waltid-mdoc-credentials](../waltid-mdoc-credentials) library. It aims to provide a multiplatform library that is easier to use and maintain compared to the original library.
+
+### Further information
+
+Checkout the [documentation regarding mdoc credentials](https://docs.walt.id/concepts/digital-credentials/mdoc-mdl-iso), to find out more.
 
 ## Features
 
@@ -146,3 +169,17 @@ if (deviceSignedJson != null) {
     println("Merged Data (device values override issuer values): $mergedData")
 }
 ```
+
+## Join the community
+
+* Connect and get the latest updates: [Discord](https://discord.gg/AW8AgqJthZ) | [Newsletter](https://walt.id/newsletter) | [YouTube](https://www.youtube.com/channel/UCXfOzrv3PIvmur_CmwwmdLA) | [LinkedIn](https://www.linkedin.com/company/walt-id/)
+* Get help, request features and report bugs: [GitHub Issues](https://github.com/walt-id/waltid-identity/issues)
+* Find more indepth documentation on our [docs site](https://docs.walt.id)
+
+
+## License
+
+Licensed under the [Apache License, Version 2.0](https://github.com/walt-id/waltid-identity/blob/main/LICENSE)
+<div align="center">
+<img src="../../../assets/walt-banner.png" alt="walt.id banner" />
+</div>

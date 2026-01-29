@@ -203,9 +203,9 @@ fun Application.test() {
 
             val verificationRequest = config.verifierRequest
 
-            val (url, token) = Verifier.verify(verificationRequest, redirectUrl = "${config.redirectUrl}?state=${req.state!!}")
-            reqCache[req.state!!] = token
-            urlCache[req.state!!] = url
+            val (url, token) = Verifier.verify(verificationRequest, redirectUrl = "${config.redirectUrl}?state=${req.state}")
+            reqCache[req.state] = token
+            urlCache[req.state] = url
 
 
             val walletUrl = config.walletUrl + "?" + url.substringAfter("?")
@@ -218,10 +218,10 @@ fun Application.test() {
                     <p>Present your credential: <code>$url</code></p>
                     <div id="qrcode"></div>
                     <p>
-                    <a href="/login?state=${req.state!!}"><button>Click here when presented</button></a> (todo: make automatic)
+                    <a href="/login?state=${req.state}"><button>Click here when presented</button></a> (todo: make automatic)
                     </p>
                     <p>
-                    <a href="/login?state=${req.state!!}&debug=autologin"><button>Debug autologin</button> (enabled=${config.enableDebug})</a>
+                    <a href="/login?state=${req.state}&debug=autologin"><button>Debug autologin</button> (enabled=${config.enableDebug})</a>
                     </p>
                     <p>
                     <a href="$walletUrl"><button>Present with web wallet</button></a>
@@ -282,7 +282,7 @@ fun Application.test() {
                     call.respondText(
                         """
                             <html><body>
-                            <p>Not presented yet, please try again<p>
+                            <p>Not presented yet, please try again</p>
                             <p>Present your credential: <code>$url</code> (just imagine real hard that this is a QR code)</p>
                             <a href="/login?state=${state}"><button>Present</button></a> Click here when presented (just imagine real hard that this is automatic)
                         </body></html>
@@ -348,8 +348,8 @@ fun Application.test() {
                         iss = config.issuer,
                         sub = "x",
                         aud = listOf("my-client-id"), // TODO: OIDC client id
-                        exp = kotlin.time.Clock.System.now().plus(365.days),
-                        iat = kotlin.time.Clock.System.now(),
+                        exp = Clock.System.now().plus(365.days),
+                        iat = Clock.System.now(),
                         nonce = req.nonce,
                     )
                 ).jsonObject
@@ -378,8 +378,6 @@ fun Application.test() {
                 nonce = req.nonce,
             )
             val idToken = signPayload(Json.encodeToJsonElement(idTokenData).jsonObject)
-            //"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwidHlwZSI6ImFjY2VzcyB0b2tlbiIsImlhdCI6MTUxNjIzOTAyMn0.85jA3wiQSdd6Vm_pCe4BXt6ALhrOX4-mmBrN5L7gGz4"
-
 
             val tokenResponse = TokenResponse(
                 idToken = idToken,
